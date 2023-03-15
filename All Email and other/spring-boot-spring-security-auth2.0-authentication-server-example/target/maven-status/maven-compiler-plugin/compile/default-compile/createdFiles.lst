@@ -1,0 +1,3 @@
+com\javadeveloperzone\SpringBootApplication.class
+com\javadeveloperzone\SecurityConfiguration.class
+com\javadeveloperzone\SecurityOAuth2Configuration.class

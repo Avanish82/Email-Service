@@ -1,0 +1,192 @@
+{"properties": [
+  {
+    "name": "spring.security.oauth2.client.registration.google.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.registration.google.client-id'"
+  },
+  {
+    "name": "google.client.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.client-id'"
+  },
+  {
+    "name": "google.client.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.client-secret'"
+  },
+  {
+    "name": "google.client.access-token-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.access-token-uri'"
+  },
+  {
+    "name": "google.client.user-authorization-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.user-authorization-uri'"
+  },
+  {
+    "name": "google.client.client-authentication-scheme",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.client-authentication-scheme'"
+  },
+  {
+    "name": "google.client.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.scope'"
+  },
+  {
+    "name": "google.resource.user-info-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.resource.user-info-uri'"
+  },
+  {
+    "name": "google.resource.prefer-token-info",
+    "type": "java.lang.String",
+    "description": "A description for 'google.resource.prefer-token-info'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "google.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client.redirectUri'"
+  },
+  {
+    "name": "gmail.client.accessTokenUri",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.accessTokenUri'"
+  },
+  {
+    "name": "gmail.client.userAuthorizationUri",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.userAuthorizationUri'"
+  },
+  {
+    "name": "gmail.client.clientAuthenticationScheme",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.clientAuthenticationScheme'"
+  },
+  {
+    "name": "gmail.resource.userInfoUri",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.resource.userInfoUri'"
+  },
+  {
+    "name": "gmail.resource.preferTokenInfo",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.resource.preferTokenInfo'"
+  },
+  {
+    "name": "gmail.client.redirectUri",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.redirectUri'"
+  },
+  {
+    "name": "gmail.client.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.scope'"
+  },
+  {
+    "name": "gmail.client.clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.clientId'"
+  },
+  {
+    "name": "gmail.client.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.client.clientSecret'"
+  },
+  {
+    "name": "spring.security.oauth2.client.registration.google.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.registration.google.client-secret'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.enabled'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.profile.tenant-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.profile.tenant-id'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.client-id'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.client-secret'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.access-token",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.access-token'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.scope'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.redirect-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.redirect-uri'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.user.group",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.user.group'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.user-group.allowed-group-names",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.user-group.allowed-group-names'"
+  },
+  {
+    "name": "spring.cloud.azure.active-directory.credential.user-group.allowed-groups",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.azure.active-directory.credential.user-group.allowed-groups'"
+  }
+]}

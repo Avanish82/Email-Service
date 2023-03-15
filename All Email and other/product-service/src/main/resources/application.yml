@@ -1,0 +1,18 @@
+#server:
+#  port: 8001
+#
+#spring:
+#  application:
+#    name: product-service
+#
+#eureka:
+#  client:
+#     eureka.client.register-with-eureka: true
+#     eureka.client.fetch-registry: true
+##    register-with-eureka: true
+##    fetch-registry: true
+#  service-url:
+#      defaultZone: http://localhost:8761/erureka/
+#      instance:
+#      hostname: localhost
+

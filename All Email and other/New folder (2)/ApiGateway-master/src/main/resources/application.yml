@@ -1,0 +1,52 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: ApiGateway
+
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: CustomerService
+#          uri: lb://CUSTOMERSERVICE
+#          predicates:
+#            - Path=/customer/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: CustomerService
+#                fallabckUri: forward:/cusService
+#        - id: ProductService
+#          uri: lb://PRODUCTSERVICE
+#          predicates:
+#            - Path=/product/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: ProductService
+#                fallbackUri: forward:/productService
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - hystrix.stream
+#
+#hystrix:
+#  command:
+#    fallbackcmd:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInmilliseconds: 5000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost

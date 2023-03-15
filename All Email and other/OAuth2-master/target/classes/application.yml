@@ -1,0 +1,148 @@
+server:
+  port: 9002
+
+#spring:
+application:
+   name: OAUTH-API-GETWAY
+#   
+#   security:
+#    oauth2:
+#        client:
+#            clientId: 256059941351-fvlsadvkeg2nk9s6mv0khr1td7qfkin5.apps.googleusercontent.com
+#            clientSecret: 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
+#            accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+#            userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+#            tokenName: oauth_token
+#            authenticationScheme: query
+#            clientAuthenticationScheme: form
+#            scope: profile
+#        resource:
+#            userInfoUri: https://www.googleapis.com/userinfo/v2/me
+#            preferTokenInfo: false
+#
+# 
+# ##GATEWAY CONFIGURATIONS
+# 
+## spring:
+##cloud:
+##  gateway:
+##    routes:
+##    - id: customer-service
+##      uri: lb://customer-service
+##      predicates:
+##      - Path=/customer/**
+##    - id: product-service
+##      uri: lb//product-service
+##      predicates:
+##      - Path=/product/**
+#
+#    
+#      
+##cloud:
+##  gateway:
+##    routes:
+##     - id: USER-SERVICE
+##       url: lb://USER-SERVICE
+##       predicate: 
+##        - path=/product/**
+#        
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    client:
+#     fetch-register: true
+#     register-with-eureka: true
+#     service-url:
+#     defaultZone: http://localhost:8761/eureka/      
+#    
+#
+#
+##spring:
+##  application:
+##    name: api-gateway
+#
+##cloud:
+##    config:
+##      fail-fast: false
+##      discovery.enabled: false
+##      uri: http://configserver:8888
+##
+##eureka:
+##  client:
+##    registerWithEureka: true
+##    fetchRegistry: true
+##    serviceUrl.defaultZone: http://eurekaserver:8761/eureka
+#
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: customer-service
+          uri: lb://customer-service
+          predicates:
+            - Path=/customer/**
+#          filters:
+#            - RewritePath=/customer/(?<segment>.*), /$\{segment}
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+             - Path=/product/**
+       ##RestApi configuration
+        - id: restApi
+          uri: http://localhost:8888/                               #lb://restApi
+          predicates:
+             - Path=/rest/** 
+#          filters:
+#            - RewritePath=/rest/(?<segment>.*), /$\{segment}
+#             
+#             
+             
+#  new configuration example
+#server:
+#  port: 9001
+#
+#  spring:
+#    application:
+#         name: API-GETWAY
+
+ 
+ ##GATEWAY CONFIGURATIONS
+       
+  eureka:
+  instance:
+    prefer-ip-address: true
+    client:
+     fetch-register: true
+     register-with-eureka: true
+     service-url:
+     defaultZone: http://localhost:8761/eureka/      
+    
+##spring:
+#    cloud:
+#    gateway:
+#      routes:
+#      - id: customer-service
+#        uri: http://localhost:8081/
+#        predicates:
+#        - Path=/customer/**
+#        filters:
+#        - AddRequestHeader=first-request, first-request-header
+#        - AddResponseHeader=first-response, first-response-header
+#      - id: product-service
+#        uri: lb://product-service                             # uri: http://localhost:8082/
+#        predicates:
+#        - Path=/product/**
+#        filters:
+#        - AddRequestHeader=second-request, second-request-header
+#        - AddResponseHeader=second-response, second-response-header
+#      - id: restApi
+#        uri: lb://restApi                             # uri: http://localhost:8082/
+#        predicates:
+#        - Path=/rest/**
+#        filters:
+#        - AddRequestHeader=second-request, second-request-header
+#        - AddResponseHeader=second-response, second-response-header
+
+
+#      hello 

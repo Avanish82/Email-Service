@@ -1,0 +1,44 @@
+#server:
+#  port: 9002
+
+#spring:
+#  application:
+#    name: customer-service
+#
+#eureka:
+#  client:
+#     eureka.client.register-with-eureka: true
+#     eureka.client.fetch-registry: true
+##    register-with-eureka: true
+##    fetch-registry: true
+#  service-url:
+#      defaultZone: http://localhost:8761/erureka/
+#      instance:
+#      hostname: localhost
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    client:
+#     fetch-register: true
+#     register-with-eureka: true
+#     service-url:
+#     defaultZone: http://localhost:8761/eureka/ 
+     
+# eureka:
+#   client:
+#    register-with-eureka: true
+#      fetch-registry: true
+#        healthcheck:
+#          enabled: true
+#            service-url:
+#               defaultZone: http://localhost:8081/eureka/
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/erureka/
+#   instance:
+#      hostname: localhost
